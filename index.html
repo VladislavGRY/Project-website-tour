@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta charset="utf-8" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="author" content="Грязных Владислав" />
+	<meta name="description" content="Сайт для путешествий" />
+	<meta name="keywords" content="путешествия, разработка" />
+
+	<script src="js/animation.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<link rel="shortcut icon" href="img/metka.svg" type="image/png">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+
+	<title>ПОЕХАЛИ</title>
+</head>
+<body>
+	<!--Задний фон-->
+	<div class="bg"></div>
+
+	<!--Меню-->
+	<header id="header-b" class="header">
+    <div class="container">
+        <!--Навигация-->
+        <nav class="nav">
+            <a class="logo">
+                 <svg class="logo" viewBox="0 0 576 512" width="70" title="map-marked-alt">
+                    <path
+                        d="M288 0c-69.59 0-126 56.41-126 126 0 56.26 82.35 158.8 113.9 196.02 6.39 7.54 17.82 7.54 24.2 0C331.65 284.8 414 182.26 414 126 414 56.41 357.59 0 288 0zm0 168c-23.2 0-42-18.8-42-42s18.8-42 42-42 42 18.8 42 42-18.8 42-42 42zM20.12 215.95A32.006 32.006 0 0 0 0 245.66v250.32c0 11.32 11.43 19.06 21.94 14.86L160 448V214.92c-8.84-15.98-16.07-31.54-21.25-46.42L20.12 215.95zM288 359.67c-14.07 0-27.38-6.18-36.51-16.96-19.66-23.2-40.57-49.62-59.49-76.72v182l192 64V266c-18.92 27.09-39.82 53.52-59.49 76.72-9.13 10.77-22.44 16.95-36.51 16.95zm266.06-198.51L416 224v288l139.88-55.95A31.996 31.996 0 0 0 576 426.34V176.02c0-11.32-11.43-19.06-21.94-14.86z"
+                    />
+                </svg>
+            </a>
+            <ul class="menu">
+                <li class="menu-item">
+                    <a class="menu-link" href="#block-1">ЗАЧЕМ ЕХАТЬ?</a>
+                </li>
+
+                <li class="menu-item">
+                    <a class="menu-link" href="#block-3">РАСПИСАНИЕ</a>
+                </li>
+
+                <li class="menu-item">
+                    <a class="menu-link" href="#block-4">КТО МЫ?</a>
+                </li>
+
+                <li class="menu-item-last">
+                    <a class="menu-link" href="#block-5">КОНТАКТЫ</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+	</header>
+
+	<main class="main">
+    <!--1-Блок Фотогалерея  -->
+    <section class="headline">
+        <div class="container">
+            <h1 class="block-title">ПОЕХАЛИ С НАМИ В ПУТЕШЕСТВИЕ</h1>
+            <section class="explore-section" id="explore-section">
+                <!-- Сетка с фото -->
+                <div class="photo-container">
+                    <div class="photo-card"  >
+                        <img
+                            src="img/Russia.jpg"
+                            class="photo-img"
+                            alt="Russia"
+                        />
+                        <div class="photo-body">
+                            <h3 class="photo-name">Россия</h3>
+                        </div>
+                    </div>
+                    <div class="photo-card"  >
+                        <img
+                            src="img/Norway.jpg"
+                            class="photo-img"
+                            alt="Norway"
+                        />
+                        <div class="photo-body">
+                            <h3 class="photo-name">Норвегия</h3>
+                        </div>
+                    </div>
+                    <div class="photo-card"  >
+                        <img
+                            src="img/Sweden.jpg"
+                            class="photo-img"
+                            alt="Sweden"
+                        />
+                        <div class="photo-body">
+                            <h3 class="photo-name">Швеция</h3>
+                        </div>
+                    </div>
+                    <div class="photo-card" >
+                        <img
+                            src="img/Switzerland.jpg"
+                            class="photo-img"
+                            alt="Switzerland"
+                        />
+                        <div class="photo-body">
+                            <h3 class="photo-name">Швейцария</h3>
+                        </div>
+                    </div>
+                    <div class="photo-card" >
+                        <img 
+														src="img/India.jpg" 
+														class="photo-img" 
+														alt="India" 
+												/>
+                        <div class="photo-body">
+                            <h3 class="photo-name">Индия</h3>
+                        </div>
+                    </div>
+                    <div class="photo-card" >
+                        <img
+                            src="img/Namibia.jpg"
+                            class="photo-img"
+                            alt="Namibia"
+                        />
+                        <div class="photo-body">
+                            <h3 class="photo-name">Намибия</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Кнопка-->
+            <a class="headline-btn btn-anim" href="#block-5">ЗАБРОНИРОВАТЬ МЕСТО</a>
+        </div>
+    </section>
+
+    <!--Линия разделения-->
+    <div class="line">
+        <svg width="100%" height="200">
+            <line class="dashed-line" x1="0" y1="100" x2="100%" y2="100"></line>
+        </svg>
+    </div>
+
+    <!--2-блок Карточки-->
+    <section class="cards">
+        <div class="container">
+            <h1 class="block-title">ЗАЧЕМ ЕХАТЬ В ТУР С НАМИ?</h1>
+
+            <!--Карточки с информацией-->
+           <section id="block-1"class="articles">
+                <article class="card" >
+                    <div class="article-wrapper">
+                        <figure class="img-card">
+                            <img
+                                src="img/Card-1.jpg"
+                                alt=""
+                            />
+                        </figure>
+                        <div class="article-body">
+                            <h2>ВПЕЧАТЛЕНИЯ НА ВСЮ ЖИЗНЬ</h2>
+                            <p>
+                                Мы делаем туры в такие места, из которых вы гарантированно привезете миллион историй, чтобы потом рассказать их вашим друзьям, коллегам и будущим внукам.
+                            </p>
+                            <a href="#" class="read-more">
+                                Подробнее <span class="sr-only">Подробнее</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card" >
+                    <div class="article-wrapper">
+                        <figure class="img-card">
+                            <img
+                                src="img/Card-2.jpg"
+                                alt=""
+                            />
+                        </figure>
+                        <div class="article-body">
+                            <h2>ДЕЙСТВИТЕЛЬНО ОТДОХНЕТЕ</h2>
+                            <p>
+                                Мы берем всю организацию путешествия на себя, поэтому для вас отдых действительно будет отдыхом, а не бесконечным бронированием гостиниц, составлением маршрута и поиском билетов на самолеты, поезда и
+                                автобусы.
+                            </p>
+                            <a href="#" class="read-more">
+                                Подробнее <span class="sr-only">about this is some title</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card" >
+                    <div class="article-wrapper">
+                        <figure class="img-card">
+                            <img
+                                src="img/Card-3.jpg"
+                                alt=""
+                            />
+                        </figure>
+                        <div class="article-body">
+                            <h2>ИНТЕРЕСНАЯ КОМПАНИЯ</h2>
+                            <p>
+                                Если вы захотели поехать в такие нетривиальные места, то велика вероятность, что и попутчики окажутся интересными ребятами — близкими вам по духу.
+                            </p>
+                            <a href="#" class="read-more">
+                                Подробнее <span class="sr-only">about this is some title</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card" >
+                    <div class="article-wrapper">
+                        <figure class="img-card">
+                            <img src="img/Card-4.jpg" alt="" />
+                        </figure>
+                        <div class="article-body">
+                            <h2>РАСШИРЕНИЕ КРУГОЗОРА</h2>
+                            <p>
+                                Сложно переоценить, как путешествия влияют на то, как мы видим и ощущаем мир, других людей и себя в этом мире. Одна поездка, например, в Африку стоит сотни прочитанных новостей и книг. Особенно если ехать с
+                                открытым сердцем.
+                            </p>
+                            <a href="#" class="read-more">
+                                Подробнее <span class="sr-only">about this is some title</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </section> 
+        </div>
+    </section> 
+
+    <!--Линия разделения-->
+    <div class="line">
+        <svg width="100%" height="200">
+            <line class="dashed-line" x1="0" y1="100" x2="100%" y2="100"></line>
+        </svg>
+    </div>
+
+    <!--Баннер с кнопкой-->
+    <section class="banner">
+        <div class="container">
+            <div class="txt">
+                <h1 class="banner-btn">Откройте новый мир с нами!</h1>
+                <h2 class="banner-btn">Путешествия, о которых мечтали</h2>
+            </div>
+
+            <div class="btn">
+                <a class="headline-btn btn-anim" href="#block-5">ЗАБРОНИРОВАТЬ МЕСТО</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Линия разделения-->
+    <div class="line">
+        <svg width="100%" height="200">
+            <line class="dashed-line" x1="0" y1="100" x2="100%" y2="100"></line>
+        </svg>
+    </div>
+
+		<!--3-Блок Карточки туров -->
+		<section id="block-3" class="block-3">
+			<div class="container">
+					<h1 class="block-title-2">РАСПИСАНИЕ ТУРОВ</h1>
+					<p class="p3">Выберите, когда и куда хотите поехать:</p>
+					<section class="tours-blocks">
+							<!-- Блоки с карточками -->
+							<div class="tours-block">
+									<div class="tour-card-block" data-aos="fade-up">
+											<div class="tour-body-block">
+													<h3 class="tour-name-block">Куба</h3>
+													<p class="p1">Самой засанкционированной стране в мире есть чем вас удивить: архитектура, природа, открытые люди — тут есть все.</p>
+													<h4 class="tour-name-abz">Количество человек:</h4>
+													<p class="p2">20-30 чел</p>
+													<h4 class="tour-name-abz">Даты:</h4>
+													<p class="p2">
+															• 21 - 28 ИЮЛЯ <br />
+															• 1 - 8 АВГУСТА
+													</p>
+													<h4 class="tour-name-abz">Стоимость:</h4>
+													<p class="p2">120 000 ₽</p>
+													<a class="headline-btn btn-anim-2" href="#block-5">ПОЕХАЛИ</a>
+											</div>
+											<div class="tour-img-container">
+													<img src="img/Cuba.jpeg"
+															class="tour-img-block"
+															alt="Cuba"/>
+											</div>
+									</div>
+									<div class="tour-card-block" data-aos="fade-up">
+											<div class="tour-body-block">
+													<h3 class="tour-name-block">Кения</h3>
+													<p class="p1">Уникальная возможность почувствовать себя внутри дикой природы.</p>
+													<h4 class="tour-name-abz">Количество человек:</h4>
+													<p class="p2">10-15 чел</p>
+													<h4 class="tour-name-abz">Даты:</h4>
+													<p class="p2">
+															• 12 - 20 ИЮНЯ <br />
+															• 23 - 31 АВГУСТА
+													</p>
+													<h4 class="tour-name-abz">Стоимость:</h4>
+													<p class="p2">190 000 ₽</p>
+													<a class="headline-btn btn-anim-2" href="#block-5">ПОЕХАЛИ</a>
+											</div>
+											<div class="tour-img-container">
+													<img src="img/Kenya.jpg" 
+													class="tour-img-block"
+													alt="Kenya" />
+											</div>
+									</div>
+									<div class="tour-card-block" data-aos="fade-up">
+										<div class="tour-body-block">
+												<h3 class="tour-name-block">Мадагаскар</h3>
+												<p class="p1">Уникальная возможность почувствовать себя внутри дикой природы.</p>
+												<h4 class="tour-name-abz">Количество человек:</h4>
+												<p class="p2">10-15 чел</p>
+												<h4 class="tour-name-abz">Даты:</h4>
+												<p class="p2">
+														• 12 - 20 ИЮНЯ <br />
+														• 23 - 31 АВГУСТА
+												</p>
+												<h4 class="tour-name-abz">Стоимость:</h4>
+												<p class="p2">190 000 ₽</p>
+												<a class="headline-btn btn-anim-2" href="#block-5">ПОЕХАЛИ</a>
+										</div>
+										<div class="tour-img-container">
+												<img src="img/Madagascar.jpg" 
+												class="tour-img-block"
+												alt="Madagascar" />
+										</div>
+									</div>
+									<div class="tour-card-block"data-aos="fade-up">
+									<div class="tour-body-block">
+											<h3 class="tour-name-block">Монголия</h3>
+											<p class="p1">Уникальная возможность почувствовать себя внутри дикой природы.</p>
+											<h4 class="tour-name-abz">Количество человек:</h4>
+											<p class="p2">10-15 чел</p>
+											<h4 class="tour-name-abz">Даты:</h4>
+											<p class="p2">
+													• 12 - 20 ИЮНЯ <br />
+													• 23 - 31 АВГУСТА
+											</p>
+											<h4 class="tour-name-abz">Стоимость:</h4>
+											<p class="p2">190 000 ₽</p>
+											<a class="headline-btn btn-anim-2" href="#block-5">ПОЕХАЛИ</a>
+									</div>
+									<div class="tour-img-container">
+											<img src="img/Mongolia.jpg" 
+											class="tour-img-block"
+											alt="Mongolia" />
+									</div>
+									</div>
+									<div class="tour-card-block"data-aos="fade-up">
+								<div class="tour-body-block">
+										<h3 class="tour-name-block">Дагестан</h3>
+										<p class="p1">Уникальная возможность почувствовать себя внутри дикой природы.</p>
+										<h4 class="tour-name-abz">Количество человек:</h4>
+										<p class="p2">10-15 чел</p>
+										<h4 class="tour-name-abz">Даты:</h4>
+										<p class="p2">
+												• 12 - 20 ИЮНЯ <br />
+												• 23 - 31 АВГУСТА
+										</p>
+										<h4 class="tour-name-abz">Стоимость:</h4>
+										<p class="p2">190 000 ₽</p>
+										<a class="headline-btn btn-anim-2" href="#block-5">ПОЕХАЛИ</a>
+								</div>
+								<div class="tour-img-container">
+										<img src="img/Dagestan.jpg" 
+										class="tour-img-block"
+										alt="Dagestan" />
+								</div>
+									</div>
+							</div>
+		</section>
+			</div>
+		</section>
+
+
+    <!--Линия разделения-->
+		<div class="line">
+					<svg width="100%" height="200">
+							<line class="dashed-line" x1="0" y1="100" x2="100%" y2="100"></line>
+					</svg>
+		</div> 
+
+ 		<!--Информация о компании-->	
+		<section id="block-4" class="block-4">
+			<div class="container">
+			<div class="responsive-container-block Container bottomContainer">
+					<div class="ultimateImg">
+						<img class="mainImg" src="img/Travel-people.jpg">
+						<div class="purpleBox">
+							<p class="purpleText">
+								Все прошло великолепно, очень понравились пейзажи, как за окном, так и в конечных точках, местная еда и колорит, ребята.
+							</p>
+							<img class="stars" src="img/Stars.svg">
+						</div>
+					</div>
+					<div class="allText">
+						<p class="headingText">
+							Кто мы?
+						</p>
+						<p class="subHeadingText">
+							Мы — молодая и амбициозная команда, готовая предложить вам нечто большее, чем стандартные маршруты и популярные курорты. Наше агентство специализируется на путевках в необычные и малознакомые страны, где каждый уголок скрывает свои тайны и сокровища.
+						</p>
+					</div>
+			</div>
+			</div>
+		</section>
+
+    <!--Линия разделения-->
+		<div class="line">
+			<svg width="100%" height="200">
+					<line class="dashed-line" x1="0" y1="100" x2="100%" y2="100"></line>
+			</svg>
+		</div> 
+
+	<!--5-Блок Карточка заявки -->
+	 <section id="block-5"class="block-5">
+		<div class="container">
+			<div class="form-flex" data-aos="fade-up">
+			<form class="form">
+				<p class="contact">Свяжись с нами</p>
+				<div class="text">
+				<div class="dropdown">
+						<select id="countrySelect" class="dropbtn" onchange="updateSelection()">
+								<option value="" disabled selected>Выберите страну</option>
+								<option value="Куба">Куба</option>
+								<option value="Кения">Кения</option>
+								<option value="Мадагаскар">Мадагаскар</option>
+								<option value="Монголия">Монголия</option>
+								<option value="Дагестан">Дагестан</option>
+						</select>
+				</div>
+				<p type="Name:"><input placeholder="Ваше имя"></input></p>
+				<p type="Email:"><input placeholder="Ваша почта"></input></p>
+				<p type="Phone:"><input placeholder="Ваш номер телефона"></input></p>
+				<p type="Message:"><input placeholder="Ваши вопросы"></input></p>
+				</div>
+				<div class="bat">
+					<div class="btn">
+						<a class="headline-btn btn-anim" href="#">ЗАБРОНИРОВАТЬ МЕСТО</a>
+				</div>
+				<h2 class="banner-pol">нажимая кнопку «Забронировать место», вы соглашаетесь с Политикой конфиденциальности</h2>
+				</div>
+				<div class="info"> 
+					<span class="inf"></span>+7 (955) 625-72-32
+					<span class="inf"></span> go.tours@gmail.com
+				</div>
+			</form>
+		</div>
+		</div>
+	</section> 
+	<a href="#header-b" class="back-to-top">Наверх</a>
+</main>
+<footer>
+		<div class="footer">
+		<div class="row">
+		<a href="#"><img src="img/YouTube.png" alt="YouTube"></a>
+		<a href="#"><img src="img/VK.png" alt="VK"></a>
+		<a href="#"><img src="img/Telegram.png" alt="Telegram"></a>
+		<a href="#"><img src="img/WhatsApp.png" alt="WhatsApp"></a>
+		</div>
+		
+		<div class="row">
+		<ul>
+		<li><a href="#">Свяжитесь с нами</a></li>
+		<li><a href="#">Наши услуги</a></li>
+		<li><a href="#">Политика конфиденциальности</a></li>
+		<li><a href="#">Правила и условия</a></li>
+		</ul>
+		</div>
+		
+		<div class="row">
+			Все права защищены || Автор дизайна: Грязных Владислав 
+		</div>
+		</div>
+</footer>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+	AOS.init();
+</script>	 
+</body>
+</html>
