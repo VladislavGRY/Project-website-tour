@@ -739,16 +739,16 @@ input:focus
 }
 
 .footer .row a img {
-	width: auto; /* Initial smaller size */
-	height: 20px; /* Initial smaller size */
-	opacity: 0.6; /* Initial grayish color */
+	width: auto; 
+	height: 20px; 
+	opacity: 0.6; 
 	transition: 0.5s;
 	margin: 10px;
 }
 
 .footer .row a:hover img {
 	opacity: 1;
-	transform: scale(1.2); /* Scale icon to 1.2 times its original size */
+	transform: scale(1.2); 
 }
 
 /* Стили для кнопки "Наверх" */
@@ -1161,8 +1161,8 @@ input:focus
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px; 
-		justify-items: center; /* выравнивание по горизонтали */
-    align-items: center; /* выравнивание по вертикали */
+		justify-items: center; 
+    align-items: center; 
 	}
 	.footer{
 		margin-top: 80px;
